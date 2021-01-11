@@ -7,7 +7,8 @@ const movies = [
         genre : {_id: "1" , name :"Action"},
         numberInStock : 6,
         dailyRentalRate: 2.5,
-        publishDate : "2018-01-03T19:04:28.809Z"
+        publishDate : "2018-01-03T19:04:28.809Z",
+        liked : true
     },
     {
         _id : "2",
@@ -15,6 +16,7 @@ const movies = [
         genre : {_id: "1" , name :"Action"},
         numberInStock : 5,
         dailyRentalRate: 2.5,
+        liked: false
     },
     {
         _id : "3",
@@ -22,6 +24,7 @@ const movies = [
         genre : {_id: "2" , name :"Thriller"},
         numberInStock : 7,
         dailyRentalRate: 4.5,
+        liked: false
     },
     {
         _id : "4",
@@ -29,6 +32,7 @@ const movies = [
         genre : {_id: "2" , name :"Thriller"},
         numberInStock : 4,
         dailyRentalRate: 3.5,
+        liked: true
     },
     {
         _id : "5",
@@ -36,6 +40,7 @@ const movies = [
         genre : {_id: "1" , name :"Action"},
         numberInStock : 7,
         dailyRentalRate: 3.5,
+        liked: false
     },
 ];
 
